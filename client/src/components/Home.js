@@ -151,7 +151,7 @@ class Home extends Component {
     }
 
     async logout(e) {
-        e.preventDefault(e);
+        e.preventDefault();
         var logoutPop = window.open("https://accounts.spotify.com/logout", "Logout", 'height=200,width=200');
         // logoutPop.close();
         window.open("http://localhost:3000", "_self");
